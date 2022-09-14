@@ -1,0 +1,8 @@
+pylint
+pytest
+click
+black
+pytest-cov
+sympy
+fastapi
+uvicorn
