@@ -18,3 +18,5 @@ jupyter
 s3fs
 bokeh
 streamlit
+kaggle
+opendatasets
