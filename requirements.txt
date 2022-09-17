@@ -17,6 +17,3 @@ jupyter
 s3fs
 bokeh
 streamlit
-sqlalchemy
-typing
-pydantic
