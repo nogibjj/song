@@ -11,6 +11,7 @@ ipython
 databricks-sql-connector
 databricks-connect==10.4.*
 uvicorn[standard]
+pandas
 dask
 dask[distributed]
 jupyter
