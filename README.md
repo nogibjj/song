@@ -11,7 +11,6 @@ This project is to run big data on Dask using a Pandas API so as to work with th
 - Makefile
 - requirements.txt
 - .gitignore
-- LICENSE
 - project1.py
 - test_project1.py
 
