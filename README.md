@@ -1,7 +1,7 @@
 Individual Project 1 (Data Engineering Systems)
 
 # Objective
-This project is to run big data on Dask using a Pandas API so as to work with the dataset in the workspace.
+This project is to run big data on Dask using a Pandas API so as to work with the dataset in the workspace. The raw file of datasets are saved in "datasets" directory.
 
 # Contents
 1. Build a git repo: nogibjj/song
