@@ -10,6 +10,6 @@ format:
 
 
 lint:
-	pylint --disable=R,C project1.py
+	pylint --disable=R,C nfl.py
 
 all: install lint test

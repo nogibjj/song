@@ -1,13 +1,10 @@
-# 6. Run server using command uvicorn test_fast_api:app --reload
-# 7. Call API by entering URL in browser
-# 8. Access API documentation by entering URL in browser
-
+# Run server using command: uvicorn test_fast_api:app --reload
 # FastAPI is the framework used to build APIs
 # Uvicorn is the server that will use the API to serve requests
 
 from fastapi import FastAPI
 
-# creats instance of class FastAPI
+# creates instance of class FastAPI
 # name of instance should be used in the command used to run uvicorn
 
 app = FastAPI()
@@ -28,9 +25,3 @@ def get_item(item_id):
         return {"item": items[item_id]}
     else:
         return {"item": "We only have four fruits"}
-
-"""
-FastAPI automatically creates two default documentation pages for your API
-<url>/docs - SwaggerUI
-<url>/redoc - ReDoc
-"""
