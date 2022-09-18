@@ -11,7 +11,7 @@ def pandas_load_nfl(location="datasets/nfl.csv"):
 
 def pandas_print_nfl(location="datasets/nfl.csv", record_number=0):
     """Display the nfl dataset
-    print and returns a single nfl player record from the nfl dataset
+    print and returns a single nfl player number from the nfl dataset
     """
 
     df = pd.read_csv(location)
